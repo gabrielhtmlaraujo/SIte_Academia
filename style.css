@@ -35,7 +35,8 @@ header nav a {
 div.header_meio {
     width: 1440px;
     height: 535px;
-    background-color: rgb(177, 132, 132);
+    background-color: white;
+    border: 1px solid black;
 }
 
 .h1_header {
@@ -58,27 +59,38 @@ div.header_meio {
     padding-left: 129px;
 }
 
+div.flex_visita {
+    display: flex;
+    margin-left: 129px;
+    margin-top: 23.8px;
+    margin-right: 872.49px;
+    background-color: red;
+    padding-top: 14.5px;
+    padding-bottom: 15.7px;
+    padding-right: 86.98px;
+    padding-left: 85.77px;
+}
+
 .h2_visita {
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 23.8px;
-    padding-left: 214.77px;
-
-    
-    width: 43.49px;
-    height: 85.77px;
-
-
-    background-color: red;
-    
+    margin: auto;
 }
 
-div.flex_agenda  {
+div.head_main {
     display: flex;
-
-
-    
+    border: 1px solid black;
+    width: 1440px;
 }
 
+.h1head_main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45.82px;
+    
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
 
 
 
