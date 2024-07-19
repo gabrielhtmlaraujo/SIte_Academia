@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* all parts related to the header nav */
+div.header_topo {
+    background-color: rgb(0, 71, 0);
+    width: 1440px;
+    height: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.header_logo img {
+    width: 81px;
+    height: 81px;
+    display: flex;
+    padding-left: 130px;
+    padding-top: 19px;
+    padding-bottom: 18px;
+}
+
+header nav a {
+    color: white;
+    margin-right: 37px;
+    text-decoration: none;
+
+
+}
+/* all parts relaciones to the main header*/
+div.header_meio {
+    width: 1440px;
+    height: 535px;
+    background-color: rgb(177, 132, 132);
+}
+
+.h1_header {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 67.65px;
+    font-weight: 400;
+    line-height: 101.84px;
+    text-align: left;
+    padding-left: 129px;
+    padding-top: 102px;
+}
+
+.h2_header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48.86px;
+    font-weight: 400;
+    line-height: 63.22px;
+    text-align: left;
+    padding-left: 129px;
+}
+
+.h2_visita {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 23.8px;
+    padding-left: 214.77px;
+
+    
+    width: 43.49px;
+    height: 85.77px;
+
+
+    background-color: red;
+    
+}
+
+div.flex_agenda  {
+    display: flex;
+
+
+    
+}
+
+
+
+
