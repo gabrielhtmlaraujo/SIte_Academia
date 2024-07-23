@@ -5,9 +5,13 @@
     padding: 0px;
 }
 
+body {
+    background-color: #EBF2F2;
+}
+
 /* all parts related to the header nav */
 div.header_topo {
-    background-color: rgb(0, 71, 0);
+    background-color:#01260A;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -27,14 +31,23 @@ div.header_logo img {
 
 header nav a {
     color: white;
-    margin-right: 37px;
+    padding: 20px;
     text-decoration: none;
-
-
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 10px;
 }
+
+header nav a:hover {
+    background-color: #EBF2F2;
+    color: #01260A;
+    transition-duration: 0.5s;
+    border-radius: 9px;
+}
+
 /* all parts relaciones to the main header*/
 div.header_meio {
-    background-color: white;
+    background-color: #1ed92a5e;
     border: 1px solid black;
 }
 
@@ -64,12 +77,18 @@ div.flex_visita {
     margin-left: 129px;
     margin-top: 23.8px;
     margin-right: 872.49px;
-    background-color: red;
+    background-color: #1ED92B;
     padding-top: 14.5px;
     padding-bottom: 15.7px;
     padding-right: 86.98px;
     padding-left: 85.77px;
     margin-bottom: 90.38px;
+}
+
+div.flex_visita:hover {
+    transition-duration: 0.5s;
+    border-radius: 20px;
+    color: #EBF2F2;
 }
 
 .h2_visita {
@@ -94,8 +113,104 @@ div.head_main {
 
 #atv01 {
     border: 1px solid black;
-    height: 325.2px;
+    height: 240px;
     margin: auto;
 }
 
+#atv02 {
+    border: 1px solid black;
+    height: 240px;
+    margin: auto;    
+}
 
+#atv03 {
+    border: 1px solid black;
+    height: 240px;
+    margin: auto;
+}
+
+#atv04 {
+    border: 1px solid black;
+    height: 240px;
+    margin: auto;
+}
+
+#atv05 {
+    border: 1px solid black;
+    height: 240px;
+    margin: auto;
+}
+
+#titulo_professor {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+    padding: 50px;
+}
+
+div.foto_professor {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+div.foto_professor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) 1fr;
+    gap: 20px; 
+    justify-items: center;
+  }
+  
+div.coluna01 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+#prof_01 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 200px;
+}
+
+#prof_02 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-right: 200px;
+}
+
+div.coluna02 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+#prof_03 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 200px;
+}
+
+#prof_04 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-right: 200px;
+}
+
+div.coluna03 {
+    display: flex;
+    justify-content: center;
+}
+
+#prof_05 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
