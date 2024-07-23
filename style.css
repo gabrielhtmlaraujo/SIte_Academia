@@ -69,6 +69,7 @@ div.flex_visita {
     padding-bottom: 15.7px;
     padding-right: 86.98px;
     padding-left: 85.77px;
+    margin-bottom: 90.38px;
 }
 
 .h2_visita {
@@ -89,8 +90,12 @@ div.head_main {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-
 }
 
+#atv01 {
+    border: 1px solid black;
+    height: 325.2px;
+    margin: auto;
+}
 
 
