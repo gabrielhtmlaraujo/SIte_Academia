@@ -2,7 +2,7 @@
 
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 0px;;
 }
 
 body {
@@ -47,7 +47,7 @@ header nav a:hover {
 
 /* all parts relaciones to the main header*/
 div.header_meio {
-    background-color: #1ed92a5e;
+    background-color: #05612e5e;
     border: 1px solid black;
 }
 
@@ -134,7 +134,7 @@ div#foto_headmain img {
     border: 1px solid black;
     height: 540px;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #atv02 {
