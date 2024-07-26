@@ -11,7 +11,7 @@ body {
 
 /* all parts related to the header nav */
 div.header_topo {
-    background-color:#01260A;
+    background-color:#000000;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -51,6 +51,10 @@ div.header_meio {
     border: 1px solid black;
 }
 
+div.atividades {
+    background-color: #000;
+}
+
 .h1_header {
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
@@ -77,12 +81,13 @@ div.flex_visita {
     margin-left: 129px;
     margin-top: 23.8px;
     margin-right: 872.49px;
-    background-color: #1ED92B;
+    background-color: #000000;
     padding-top: 14.5px;
     padding-bottom: 15.7px;
     padding-right: 86.98px;
     padding-left: 85.77px;
     margin-bottom: 90.38px;
+    color: white;
 }
 
 div.flex_visita {
@@ -104,8 +109,14 @@ div.flex_visita:hover {
 
 div.head_main {
     display: flex;
-    border: 1px solid black;
     width: 1440px;
+    background-color: #000;
+    justify-content: center;
+}
+
+div#foto_headmain img {
+    width: 120px;
+
 }
 
 .h1head_main {
@@ -115,17 +126,20 @@ div.head_main {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+
+    color: white;
 }
 
 #atv01 {
     border: 1px solid black;
-    height: 240px;
+    height: 540px;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 #atv02 {
     border: 1px solid black;
-    height: 240px;
+    height: 540px;
     margin: auto;    
 }
 
