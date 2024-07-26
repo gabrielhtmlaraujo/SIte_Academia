@@ -85,11 +85,15 @@ div.flex_visita {
     margin-bottom: 90.38px;
 }
 
+div.flex_visita {
+    transition: border-radius 0.7s, color 0.5s;
+}
+
 div.flex_visita:hover {
-    transition-duration: 0.5s;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #EBF2F2;
 }
+
 
 .h2_visita {
     font-family: Arial, Helvetica, sans-serif;
