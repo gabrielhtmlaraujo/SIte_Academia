@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #EBF2F2;
+    background-color: #4d8d58;
 }
 
 /* all parts related to the header nav */
@@ -119,6 +119,10 @@ div#foto_headmain img {
 
 }
 
+main {
+    background-color: #000;
+}
+
 .h1head_main {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45.82px;
@@ -145,19 +149,19 @@ div#foto_headmain img {
 
 #atv03 {
     border: 1px solid black;
-    height: 240px;
+    height: 540px;
     margin: auto;
 }
 
 #atv04 {
     border: 1px solid black;
-    height: 240px;
+    height: 540px;
     margin: auto;
 }
 
 #atv05 {
     border: 1px solid black;
-    height: 240px;
+    height: 540px;
     margin: auto;
 }
 
@@ -167,6 +171,8 @@ div#foto_headmain img {
     text-align: center;
 
     padding: 50px;
+
+    color: white;
 }
 
 div.foto_professor {
@@ -190,12 +196,34 @@ div.coluna01 {
     margin-bottom: 70px;
 }
 
+div#ana {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
 #prof_01 {
     width: 300px;
     height: 300px;
     border: 1px solid black;
     margin-left: 350px;
 }
+
+
+
+div#fabiana {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+
 
 #prof_02 {
     width: 300px;
@@ -210,11 +238,29 @@ div.coluna02 {
     margin-bottom: 70px;
 }
 
+div#cesar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
 #prof_03 {
     width: 300px;
     height: 300px;
     border: 1px solid black;
     margin-left: 350px;
+}
+
+div#jamantha {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
 }
 
 #prof_04 {
@@ -227,6 +273,14 @@ div.coluna02 {
 div.coluna03 {
     display: flex;
     justify-content: center;
+}
+
+div#boxe {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
 }
 
 #prof_05 {
