@@ -78,16 +78,6 @@ div.atividades {
 
 div.flex_visita {
     display: flex;
-    margin-left: 129px;
-    margin-top: 23.8px;
-    margin-right: 872.49px;
-    background-color: #000000;
-    padding-top: 14.5px;
-    padding-bottom: 15.7px;
-    padding-right: 86.98px;
-    padding-left: 85.77px;
-    margin-bottom: 90.38px;
-    color: white;
 }
 
 div.flex_visita {
@@ -100,9 +90,22 @@ div.flex_visita:hover {
 }
 
 
-.h2_visita {
+.button_visita {
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
+    font-size: 30px;
+    color: white;
+    margin-left: 129px;
+    margin-top: 23.8px;
+    margin-bottom: 90.38px;
+    background-color: #000000;
+    padding: 14.5px 86px;
+    border-radius: 5px;
+    transition: border-radius 0.5s;
+    border: none;
+}
+
+.button_visita:hover {
+    border-radius: 10px;
 }
 
 
@@ -199,10 +202,17 @@ div.coluna01 {
 div#ana {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 70px;
     width: 300px;
     height: 300px;
     border: 1px solid black;
+}
+
+h1#nome1, #nome2, #nome3, #nome4, #nome5 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+
 }
 
 #prof_01 {
@@ -217,7 +227,6 @@ div#ana {
 div#fabiana {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 70px;
     width: 300px;
     height: 300px;
     border: 1px solid black;
@@ -241,7 +250,6 @@ div.coluna02 {
 div#cesar {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 70px;
     width: 300px;
     height: 300px;
     border: 1px solid black;
@@ -257,7 +265,6 @@ div#cesar {
 div#jamantha {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 70px;
     width: 300px;
     height: 300px;
     border: 1px solid black;
@@ -287,4 +294,5 @@ div#boxe {
     width: 300px;
     height: 300px;
     border: 1px solid black;
+    margin-bottom: 100px; /* TIRAR ESSA MARGIN AO CONTINUAR O SITE*/
 }
