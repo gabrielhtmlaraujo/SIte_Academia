@@ -5,6 +5,11 @@
     padding: 0px;;
 }
 
+@font-face {
+    font-family: 'professor';
+    src: url(Fonts/professor.otf);
+}
+
 body {
     background-color: #4d8d58;
 }
