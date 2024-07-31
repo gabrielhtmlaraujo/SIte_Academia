@@ -10,6 +10,16 @@
     src: url(Fonts/professor.otf);
 }
 
+@font-face {
+    font-family: 'topo';
+    src: url(Fonts/topo.ttf);
+}
+
+@font-face {
+    font-family:'meio';
+    src: url(Fonts/meio.ttf);
+}
+
 body {
     background-color: #4d8d58;
 }
@@ -38,9 +48,10 @@ header nav a {
     color: white;
     padding: 20px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'professor',Arial, Helvetica, sans-serif;
     margin-left: 20px;
     margin-right: 10px;
+    font-size: 30px;
 }
 
 header nav a:hover {
@@ -62,8 +73,8 @@ div.atividades {
 
 .h1_header {
     color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 67.65px;
+    font-family: 'topo', Arial, Helvetica, sans-serif;
+    font-size: 120px;
     font-weight: 400;
     line-height: 101.84px;
     text-align: left;
@@ -73,8 +84,8 @@ div.atividades {
 }
 
 .h2_header {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 48.86px;
+    font-family: 'meio',Arial, Helvetica, sans-serif;
+    font-size: 80px;
     font-weight: 400;
     line-height: 63.22px;
     text-align: left;
@@ -96,8 +107,8 @@ div.flex_visita:hover {
 
 
 .button_visita {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family: 'professor';
+    font-size: 50px;
     color: white;
     margin-left: 129px;
     margin-top: 23.8px;
@@ -174,13 +185,13 @@ main {
 }
 
 #titulo_professor {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family:'professor',Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
     text-align: center;
 
     padding: 50px;
 
-    color: white;
 }
 
 div.foto_professor {
@@ -214,9 +225,9 @@ div#ana {
 
 h1#nome1, #nome2, #nome3, #nome4, #nome5 {
     text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 5px;
+    font-family:'professor',Arial, Helvetica, sans-serif;
+    color: rgb(13, 216, 40);
+    font-size: 50px;
 
 }
 
