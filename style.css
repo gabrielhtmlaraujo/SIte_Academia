@@ -1,317 +1,307 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
-    max-width: 100%;
-    height: auto;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  height: auto;
 }
 
 @font-face {
-    font-family: 'professor';
-    src: url(Fonts/professor.otf);
+  font-family: "professor";
+  src: url(Fonts/professor.otf);
 }
 
 @font-face {
-    font-family: 'topo';
-    src: url(Fonts/Anton-Regular.ttf);
+  font-family: "topo";
+  src: url(Fonts/Anton-Regular.ttf);
 }
 
 @font-face {
-    font-family:'meio';
-    src: url(Fonts/Raleway-VariableFont_wght.ttf);
+  font-family: "meio";
+  src: url(Fonts/Raleway-VariableFont_wght.ttf);
 }
 
 body {
-    background-color: #4d8d58;
+  background-color: #4d8d58;
 }
 
 /* all parts related to the header nav */
 div.header_topo {
-    background-color:#000000;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
 div.header_logo img {
-    width: 81px;
-    height: 81px;
-    display: flex;
-    padding-left: 130px;
-    padding-top: 19px;
-    padding-bottom: 18px;
-    padding-right: 50px;
+  width: 81px;
+  height: 81px;
+  display: flex;
+  padding-left: 130px;
+  padding-top: 19px;
+  padding-bottom: 18px;
+  padding-right: 50px;
 }
 
 header nav a {
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-    font-family: 'meio',Arial, Helvetica, sans-serif;
-    margin-left: 20px;
-    margin-right: 10px;
-    font-size: 15px;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "meio", Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 15px;
 }
 
 header nav a:hover {
-    background-color: #EBF2F2;
-    color: #01260A;
-    transition-duration: 0.5s;
-    border-radius: 9px;
+  background-color: #ebf2f2;
+  color: #01260a;
+  transition-duration: 0.5s;
+  border-radius: 9px;
 }
 
 /* all parts relaciones to the main header*/
 div.header_meio {
-    background-color: #05612e5e;
+  background-color: #05612e5e;
 }
 
 div.atividades {
-    background-color: #000;
+  background-color: #000;
 }
 
 .h1_header {
-    color: rgb(255, 255, 255);
-    font-family: 'topo', Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    font-weight: 400;
-    line-height: 101.84px;
-    text-align: left;
-    padding-left: 129px;
-    padding-top: 102px;
-    padding-bottom: 5.51px;
+  color: rgb(255, 255, 255);
+  font-family: "topo", Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 101.84px;
+  text-align: left;
+  padding-left: 129px;
+  padding-top: 102px;
+  padding-bottom: 5.51px;
 }
 
 .h2_header {
-    font-family: 'meio',Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 63.22px;
-    text-align: left;
-    padding-left: 129px;
+  font-family: "meio", Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 63.22px;
+  text-align: left;
+  padding-left: 129px;
 }
 
 div.flex_visita {
-    display: flex;
+  display: flex;
 }
 
 div.flex_visita {
-    transition: border-radius 0.7s, color 0.5s;
+  transition: border-radius 0.7s, color 0.5s;
 }
 
 div.flex_visita:hover {
-    border-radius: 10px;
-    color: #EBF2F2;
+  border-radius: 10px;
+  color: #ebf2f2;
 }
 
-
 .button_visita {
-    font-family: 'meio';
-    font-size: 20px;
-    color: white;
-    margin-left: 129px;
-    margin-top: 23.8px;
-    margin-bottom: 90.38px;
-    background-color: #000000;
-    padding: 14.5px 86px;
-    border-radius: 5px;
-    transition: border-radius 0.5s;
-    border: none;
+  font-family: "meio";
+  font-size: 20px;
+  color: white;
+  margin-left: 129px;
+  margin-top: 23.8px;
+  margin-bottom: 90.38px;
+  background-color: #000000;
+  padding: 14.5px 86px;
+  border-radius: 5px;
+  transition: border-radius 0.5s;
+  border: none;
 }
 
 .button_visita:hover {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
-
-
 div.head_main {
-    display: flex;
-    width: 1440px;
-    background-color: #000;
-    justify-content: center;
+  display: flex;
+  width: 1440px;
+  background-color: #000;
+  justify-content: center;
 }
 
 div#foto_headmain img {
-    width: 120px;
-
+  width: 120px;
 }
 
 main {
-    background-color: #000;
+  background-color: #000;
 }
 
 .h1head_main {
-    font-family: 'topo',Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  font-family: "topo", Arial, Helvetica, sans-serif;
+  font-size: 50px;
 
-    color: white;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  color: white;
 }
 
 #atv01 {
-    border: 1px solid black;
-    height: 540px;
-    margin: auto;
-    margin-bottom: 50px;
+  border: 1px solid black;
+  height: 540px;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 #atv02 {
-    border: 1px solid black;
-    height: 540px;
-    margin: auto;    
+  border: 1px solid black;
+  height: 540px;
+  margin: auto;
 }
 
 #atv03 {
-    border: 1px solid black;
-    height: 540px;
-    margin: auto;
+  border: 1px solid black;
+  height: 540px;
+  margin: auto;
 }
 
 #atv04 {
-    border: 1px solid black;
-    height: 540px;
-    margin: auto;
+  border: 1px solid black;
+  height: 540px;
+  margin: auto;
 }
 
 #atv05 {
-    border: 1px solid black;
-    height: 540px;
-    margin: auto;
+  border: 1px solid black;
+  height: 540px;
+  margin: auto;
 }
 
 #titulo_professor {
-    font-family:'professor',Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 60px;
-    text-align: center;
+  font-family: "professor", Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  text-align: center;
 
-    padding: 50px;
-
+  padding: 50px;
 }
 
 div.foto_professor {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
 
 div.foto_professor {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr) 1fr;
-    gap: 20px; 
-    justify-items: center;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr) 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+
 div.coluna01 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
 }
 
 div#ana {
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
 }
 
-h1#nome1, #nome2, #nome3, #nome4, #nome5 {
-    text-align: center;
-    font-family:'professor',Arial, Helvetica, sans-serif;
-    color: rgb(13, 216, 40);
-    font-size: 50px;
-
+h1#nome1,
+#nome2,
+#nome3,
+#nome4,
+#nome5 {
+  text-align: center;
+  font-family: "professor", Arial, Helvetica, sans-serif;
+  color: rgb(13, 216, 40);
+  font-size: 50px;
 }
-
-
 
 #prof_01 {
-    width: 300px;
-    height: 300px;
-    border: px solid rgb(255, 255, 255);
-    margin-left: 350px;
+  width: 300px;
+  height: 300px;
+  border: px solid rgb(255, 255, 255);
+  margin-left: 350px;
 }
-
-
 
 div#fabiana {
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
 }
 
-
-
 #prof_02 {
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    margin-right: 350px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-right: 350px;
 }
 
 div.coluna02 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
 }
 
 div#cesar {
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
 }
 
 #prof_03 {
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    margin-left: 350px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 350px;
 }
 
 div#jamantha {
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
 }
 
 #prof_04 {
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    margin-right: 350px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-right: 350px;
 }
 
 div.coluna03 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 div#boxe {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
 }
 
 #prof_05 {
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    margin-bottom: 100px; /* TIRAR ESSA MARGIN AO CONTINUAR O SITE*/
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-bottom: 100px; /* TIRAR ESSA MARGIN AO CONTINUAR O SITE*/
 }
