@@ -149,36 +149,86 @@ main {
   color: white;
 }
 
+
 #atv01 {
   border: 1px solid black;
   height: 540px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
+
+#atv01 h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 90px;
+  font-family: 'meio';
+  padding-left: 50px;
+}
+
 
 #atv02 {
   border: 1px solid black;
   height: 540px;
   margin: auto;
+  margin-bottom: 90px;
+}
+
+#atv02 h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 90px;
+  text-align: right;
+  font-family: 'meio';
+  padding-right: 50px;
 }
 
 #atv03 {
   border: 1px solid black;
   height: 540px;
   margin: auto;
+  margin-bottom: 90px;
 }
+
+#atv03 h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 90px;
+  font-family: 'meio';
+  padding-left: 50px;
+}
+
 
 #atv04 {
   border: 1px solid black;
   height: 540px;
   margin: auto;
+  margin-bottom: 90px;
+  text-align: right;
 }
+
+#atv04 h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 90px;
+  font-family: 'meio';
+  padding-right: 50px;
+}
+
 
 #atv05 {
   border: 1px solid black;
   height: 540px;
   margin: auto;
 }
+
+#atv05 h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 90px;
+  font-family: 'meio';
+  padding-left: 50px;
+}
+
 
 #titulo_professor {
   font-family: "professor", Arial, Helvetica, sans-serif;
